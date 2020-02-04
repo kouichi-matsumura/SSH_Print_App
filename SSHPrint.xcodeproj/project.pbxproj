@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A19933D23E23DC600F4FE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19933C23E23DC600F4FE79 /* AppDelegate.swift */; };
+		2A19934623E23DCB00F4FE79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A19934523E23DCB00F4FE79 /* Preview Assets.xcassets */; };
+		2A19935423E23DCB00F4FE79 /* MySshApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19935323E23DCB00F4FE79 /* MySshApp2Tests.swift */; };
+		2A19935F23E23DCB00F4FE79 /* MySshApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19935E23E23DCB00F4FE79 /* MySshApp2UITests.swift */; };
+		2A19936D23E2455B00F4FE79 /* DebugVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19936C23E2455B00F4FE79 /* DebugVC.swift */; };
+		2A19938223E2522A00F4FE79 /* Pods_MySshApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5F9AB6A461D1889327E54C /* Pods_MySshApp2.framework */; };
+		2A19938A23E2ACAB00F4FE79 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19938923E2ACAB00F4FE79 /* SplashVC.swift */; };
+		2A19938C23E2CFD100F4FE79 /* Debug2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A19938B23E2CFD100F4FE79 /* Debug2.storyboard */; };
+		2A19938E23E3069B00F4FE79 /* FileViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A19938D23E3069B00F4FE79 /* FileViewerVC.swift */; };
+		2A70DC3823E4B81700319FA5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A70DC3723E4B81700319FA5 /* Media.xcassets */; };
+		2A70DC3C23E4BE0100319FA5 /* さんぷる.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2A70DC3B23E4BE0100319FA5 /* さんぷる.pdf */; };
+		2A70DC4423E9649400319FA5 /* Shout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70DC4223E9649400319FA5 /* Shout.framework */; };
+		2A70DC4523E9649400319FA5 /* Shout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70DC4223E9649400319FA5 /* Shout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A70DC4623E9649400319FA5 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70DC4323E9649400319FA5 /* Socket.framework */; };
+		2A70DC4723E9649400319FA5 /* Socket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70DC4323E9649400319FA5 /* Socket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A70DC4A23E98AD000319FA5 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70DC4923E98AD000319FA5 /* PrintVC.swift */; };
+		2A70DC4C23E98EF000319FA5 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70DC4B23E98EF000319FA5 /* LoginData.swift */; };
+		2AB239FC23E452D2001CC0AD /* DocumentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB239FB23E452D2001CC0AD /* DocumentVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A19935023E23DCB00F4FE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A19933123E23DC600F4FE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A19933823E23DC600F4FE79;
+			remoteInfo = MySshApp2;
+		};
+		2A19935B23E23DCB00F4FE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A19933123E23DC600F4FE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A19933823E23DC600F4FE79;
+			remoteInfo = MySshApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A70DC4823E9649400319FA5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2A70DC4523E9649400319FA5 /* Shout.framework in Embed Frameworks */,
+				2A70DC4723E9649400319FA5 /* Socket.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A19933923E23DC600F4FE79 /* SSHPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A19933C23E23DC600F4FE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A19934523E23DCB00F4FE79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A19934A23E23DCB00F4FE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A19934F23E23DCB00F4FE79 /* SSHPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A19935323E23DCB00F4FE79 /* MySshApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySshApp2Tests.swift; sourceTree = "<group>"; };
+		2A19935523E23DCB00F4FE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A19935A23E23DCB00F4FE79 /* SSHPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A19935E23E23DCB00F4FE79 /* MySshApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySshApp2UITests.swift; sourceTree = "<group>"; };
+		2A19936023E23DCB00F4FE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A19936C23E2455B00F4FE79 /* DebugVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugVC.swift; sourceTree = "<group>"; };
+		2A19937323E247F900F4FE79 /* Shout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shout.framework; path = "../../Desktop/Shout-Build/Debug-iphoneos/Shout.framework"; sourceTree = "<group>"; };
+		2A19937723E247FD00F4FE79 /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket.framework; path = "../../Desktop/Shout-Build/Debug-iphoneos/Socket.framework"; sourceTree = "<group>"; };
+		2A19937B23E2484900F4FE79 /* shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shim.h; sourceTree = "<group>"; };
+		2A19937C23E2484900F4FE79 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2A19937D23E2484900F4FE79 /* libssh2_sftp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libssh2_sftp.h; sourceTree = "<group>"; };
+		2A19937E23E2484900F4FE79 /* libssh2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libssh2.h; sourceTree = "<group>"; };
+		2A19937F23E2484900F4FE79 /* libssh2_publickey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libssh2_publickey.h; sourceTree = "<group>"; };
+		2A19938923E2ACAB00F4FE79 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		2A19938B23E2CFD100F4FE79 /* Debug2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug2.storyboard; sourceTree = "<group>"; };
+		2A19938D23E3069B00F4FE79 /* FileViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewerVC.swift; sourceTree = "<group>"; };
+		2A70DC0923E4A79200319FA5 /* Socket_x86.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket_x86.framework; path = "../../Desktop/Shout-Build/Debug-iphonesimulator/Socket_x86.framework"; sourceTree = "<group>"; };
+		2A70DC0A23E4A79200319FA5 /* Shout_x86.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shout_x86.framework; path = "../../Desktop/Shout-Build/Debug-iphonesimulator/Shout_x86.framework"; sourceTree = "<group>"; };
+		2A70DC2F23E4ADD400319FA5 /* Shout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shout.framework; path = "../Shout-Build/Debug-iphonesimulator/Shout.framework"; sourceTree = "<group>"; };
+		2A70DC3023E4ADD400319FA5 /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket.framework; path = "../Shout-Build/Debug-iphonesimulator/Socket.framework"; sourceTree = "<group>"; };
+		2A70DC3723E4B81700319FA5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2A70DC3B23E4BE0100319FA5 /* さんぷる.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "さんぷる.pdf"; sourceTree = "<group>"; };
+		2A70DC4223E9649400319FA5 /* Shout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shout.framework; path = "../Shout-Build/Debug-iphoneos/Shout.framework"; sourceTree = "<group>"; };
+		2A70DC4323E9649400319FA5 /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket.framework; path = "../Shout-Build/Debug-iphoneos/Socket.framework"; sourceTree = "<group>"; };
+		2A70DC4923E98AD000319FA5 /* PrintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
+		2A70DC4B23E98EF000319FA5 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		2AB239FB23E452D2001CC0AD /* DocumentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentVC.swift; sourceTree = "<group>"; };
+		2AB239FD23E4A738001CC0AD /* Shout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shout.framework; path = "../../Desktop/Shout-Build/Debug-iphonesimulator/Shout.framework"; sourceTree = "<group>"; };
+		2AB239FE23E4A738001CC0AD /* Socket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket.framework; path = "../../Desktop/Shout-Build/Debug-iphonesimulator/Socket.framework"; sourceTree = "<group>"; };
+		5C8937CA0E4F5466EFF6162C /* Pods-MySshApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySshApp2.debug.xcconfig"; path = "Target Support Files/Pods-MySshApp2/Pods-MySshApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5F9AB6A461D1889327E54C /* Pods_MySshApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySshApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF324DAA1E9A6A59659643A /* Pods-MySshApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySshApp2.release.xcconfig"; path = "Target Support Files/Pods-MySshApp2/Pods-MySshApp2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A19933623E23DC600F4FE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A70DC4623E9649400319FA5 /* Socket.framework in Frameworks */,
+				2A70DC4423E9649400319FA5 /* Shout.framework in Frameworks */,
+				2A19938223E2522A00F4FE79 /* Pods_MySshApp2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A19934C23E23DCB00F4FE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A19935723E23DCB00F4FE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DECF7721E4508E15A55B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8937CA0E4F5466EFF6162C /* Pods-MySshApp2.debug.xcconfig */,
+				FBF324DAA1E9A6A59659643A /* Pods-MySshApp2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A19933023E23DC600F4FE79 = {
+			isa = PBXGroup;
+			children = (
+				2A19933B23E23DC600F4FE79 /* MySshApp2 */,
+				2A19935223E23DCB00F4FE79 /* MySshApp2Tests */,
+				2A19935D23E23DCB00F4FE79 /* MySshApp2UITests */,
+				2A19933A23E23DC600F4FE79 /* Products */,
+				2A19937223E247F900F4FE79 /* Frameworks */,
+				26DECF7721E4508E15A55B83 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2A19933A23E23DC600F4FE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A19933923E23DC600F4FE79 /* SSHPrint.app */,
+				2A19934F23E23DCB00F4FE79 /* SSHPrintTests.xctest */,
+				2A19935A23E23DCB00F4FE79 /* SSHPrintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A19933B23E23DC600F4FE79 /* MySshApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				2A19937A23E2483600F4FE79 /* CSSH */,
+				2A19933C23E23DC600F4FE79 /* AppDelegate.swift */,
+				2A19938923E2ACAB00F4FE79 /* SplashVC.swift */,
+				2AB239FB23E452D2001CC0AD /* DocumentVC.swift */,
+				2A19936C23E2455B00F4FE79 /* DebugVC.swift */,
+				2A70DC4923E98AD000319FA5 /* PrintVC.swift */,
+				2A19938B23E2CFD100F4FE79 /* Debug2.storyboard */,
+				2A19938D23E3069B00F4FE79 /* FileViewerVC.swift */,
+				2A70DC4B23E98EF000319FA5 /* LoginData.swift */,
+				2A70DC3B23E4BE0100319FA5 /* さんぷる.pdf */,
+				2A70DC3723E4B81700319FA5 /* Media.xcassets */,
+				2A19934A23E23DCB00F4FE79 /* Info.plist */,
+				2A19934423E23DCB00F4FE79 /* Preview Content */,
+			);
+			path = MySshApp2;
+			sourceTree = "<group>";
+		};
+		2A19934423E23DCB00F4FE79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A19934523E23DCB00F4FE79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A19935223E23DCB00F4FE79 /* MySshApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A19935323E23DCB00F4FE79 /* MySshApp2Tests.swift */,
+				2A19935523E23DCB00F4FE79 /* Info.plist */,
+			);
+			path = MySshApp2Tests;
+			sourceTree = "<group>";
+		};
+		2A19935D23E23DCB00F4FE79 /* MySshApp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A19935E23E23DCB00F4FE79 /* MySshApp2UITests.swift */,
+				2A19936023E23DCB00F4FE79 /* Info.plist */,
+			);
+			path = MySshApp2UITests;
+			sourceTree = "<group>";
+		};
+		2A19937223E247F900F4FE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A70DC2F23E4ADD400319FA5 /* Shout.framework */,
+				2A70DC3023E4ADD400319FA5 /* Socket.framework */,
+				2A70DC4223E9649400319FA5 /* Shout.framework */,
+				2A70DC4323E9649400319FA5 /* Socket.framework */,
+				2A70DC0A23E4A79200319FA5 /* Shout_x86.framework */,
+				2A70DC0923E4A79200319FA5 /* Socket_x86.framework */,
+				2A19937723E247FD00F4FE79 /* Socket.framework */,
+				2A19937323E247F900F4FE79 /* Shout.framework */,
+				2AB239FD23E4A738001CC0AD /* Shout.framework */,
+				2AB239FE23E4A738001CC0AD /* Socket.framework */,
+				BE5F9AB6A461D1889327E54C /* Pods_MySshApp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A19937A23E2483600F4FE79 /* CSSH */ = {
+			isa = PBXGroup;
+			children = (
+				2A19937F23E2484900F4FE79 /* libssh2_publickey.h */,
+				2A19937D23E2484900F4FE79 /* libssh2_sftp.h */,
+				2A19937E23E2484900F4FE79 /* libssh2.h */,
+				2A19937C23E2484900F4FE79 /* module.modulemap */,
+				2A19937B23E2484900F4FE79 /* shim.h */,
+			);
+			path = CSSH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A19933823E23DC600F4FE79 /* SSHPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A19936323E23DCB00F4FE79 /* Build configuration list for PBXNativeTarget "SSHPrint" */;
+			buildPhases = (
+				5BA5DE20509952C0F10A33AD /* [CP] Check Pods Manifest.lock */,
+				2A19933523E23DC600F4FE79 /* Sources */,
+				2A19933623E23DC600F4FE79 /* Frameworks */,
+				2A19933723E23DC600F4FE79 /* Resources */,
+				2B5BBF72C09DF51E5FCF9480 /* [CP] Embed Pods Frameworks */,
+				2A70DC4823E9649400319FA5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSHPrint;
+			productName = MySshApp2;
+			productReference = 2A19933923E23DC600F4FE79 /* SSHPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A19934E23E23DCB00F4FE79 /* SSHPrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A19936623E23DCB00F4FE79 /* Build configuration list for PBXNativeTarget "SSHPrintTests" */;
+			buildPhases = (
+				2A19934B23E23DCB00F4FE79 /* Sources */,
+				2A19934C23E23DCB00F4FE79 /* Frameworks */,
+				2A19934D23E23DCB00F4FE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A19935123E23DCB00F4FE79 /* PBXTargetDependency */,
+			);
+			name = SSHPrintTests;
+			productName = MySshApp2Tests;
+			productReference = 2A19934F23E23DCB00F4FE79 /* SSHPrintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A19935923E23DCB00F4FE79 /* SSHPrintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A19936923E23DCB00F4FE79 /* Build configuration list for PBXNativeTarget "SSHPrintUITests" */;
+			buildPhases = (
+				2A19935623E23DCB00F4FE79 /* Sources */,
+				2A19935723E23DCB00F4FE79 /* Frameworks */,
+				2A19935823E23DCB00F4FE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A19935C23E23DCB00F4FE79 /* PBXTargetDependency */,
+			);
+			name = SSHPrintUITests;
+			productName = MySshApp2UITests;
+			productReference = 2A19935A23E23DCB00F4FE79 /* SSHPrintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A19933123E23DC600F4FE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = kai;
+				TargetAttributes = {
+					2A19933823E23DC600F4FE79 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					2A19934E23E23DCB00F4FE79 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 2A19933823E23DC600F4FE79;
+					};
+					2A19935923E23DCB00F4FE79 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 2A19933823E23DC600F4FE79;
+					};
+				};
+			};
+			buildConfigurationList = 2A19933423E23DC600F4FE79 /* Build configuration list for PBXProject "SSHPrint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A19933023E23DC600F4FE79;
+			productRefGroup = 2A19933A23E23DC600F4FE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A19933823E23DC600F4FE79 /* SSHPrint */,
+				2A19934E23E23DCB00F4FE79 /* SSHPrintTests */,
+				2A19935923E23DCB00F4FE79 /* SSHPrintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A19933723E23DC600F4FE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A19934623E23DCB00F4FE79 /* Preview Assets.xcassets in Resources */,
+				2A70DC3823E4B81700319FA5 /* Media.xcassets in Resources */,
+				2A19938C23E2CFD100F4FE79 /* Debug2.storyboard in Resources */,
+				2A70DC3C23E4BE0100319FA5 /* さんぷる.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A19934D23E23DCB00F4FE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A19935823E23DCB00F4FE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B5BBF72C09DF51E5FCF9480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySshApp2/Pods-MySshApp2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySshApp2/Pods-MySshApp2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySshApp2/Pods-MySshApp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA5DE20509952C0F10A33AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySshApp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A19933523E23DC600F4FE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A19938E23E3069B00F4FE79 /* FileViewerVC.swift in Sources */,
+				2AB239FC23E452D2001CC0AD /* DocumentVC.swift in Sources */,
+				2A70DC4C23E98EF000319FA5 /* LoginData.swift in Sources */,
+				2A19936D23E2455B00F4FE79 /* DebugVC.swift in Sources */,
+				2A19933D23E23DC600F4FE79 /* AppDelegate.swift in Sources */,
+				2A70DC4A23E98AD000319FA5 /* PrintVC.swift in Sources */,
+				2A19938A23E2ACAB00F4FE79 /* SplashVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A19934B23E23DCB00F4FE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A19935423E23DCB00F4FE79 /* MySshApp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A19935623E23DCB00F4FE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A19935F23E23DCB00F4FE79 /* MySshApp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A19935123E23DCB00F4FE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A19933823E23DC600F4FE79 /* SSHPrint */;
+			targetProxy = 2A19935023E23DCB00F4FE79 /* PBXContainerItemProxy */;
+		};
+		2A19935C23E23DCB00F4FE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A19933823E23DC600F4FE79 /* SSHPrint */;
+			targetProxy = 2A19935B23E23DCB00F4FE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A19936123E23DCB00F4FE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A19936223E23DCB00F4FE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A19936423E23DCB00F4FE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8937CA0E4F5466EFF6162C /* Pods-MySshApp2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MySshApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = U7JU5P9K4S;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kai/work/Shout-Build/Debug-iphoneos/",
+				);
+				INFOPLIST_FILE = MySshApp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.SSHPrint;
+				PRODUCT_NAME = SSHPrint;
+				SWIFT_INCLUDE_PATHS = /Users/kai/work/MySshApp2/MySshApp2/CSSH/;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A19936523E23DCB00F4FE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF324DAA1E9A6A59659643A /* Pods-MySshApp2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MySshApp2/Preview Content\"";
+				DEVELOPMENT_TEAM = U7JU5P9K4S;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kai/Desktop/work/Debug-iphoneos/",
+					"/Users/kai/Desktop/work/Debug-iphoneos/",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"/Users/kai/Desktop/work/Debug-iphoneos/",
+					"/Users/kai/Desktop/work/Debug-iphonesimulator/",
+				);
+				INFOPLIST_FILE = MySshApp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.SSHPrint;
+				PRODUCT_NAME = SSHPrint;
+				SWIFT_INCLUDE_PATHS = /Users/kai/work/MySshApp2/MySshApp2/CSSH/;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A19936723E23DCB00F4FE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MySshApp2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MySshApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHPrint.app/SSHPrint";
+			};
+			name = Debug;
+		};
+		2A19936823E23DCB00F4FE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MySshApp2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MySshApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHPrint.app/SSHPrint";
+			};
+			name = Release;
+		};
+		2A19936A23E23DCB00F4FE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MySshApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MySshApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySshApp2;
+			};
+			name = Debug;
+		};
+		2A19936B23E23DCB00F4FE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MySshApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MySshApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySshApp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A19933423E23DC600F4FE79 /* Build configuration list for PBXProject "SSHPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A19936123E23DCB00F4FE79 /* Debug */,
+				2A19936223E23DCB00F4FE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A19936323E23DCB00F4FE79 /* Build configuration list for PBXNativeTarget "SSHPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A19936423E23DCB00F4FE79 /* Debug */,
+				2A19936523E23DCB00F4FE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A19936623E23DCB00F4FE79 /* Build configuration list for PBXNativeTarget "SSHPrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A19936723E23DCB00F4FE79 /* Debug */,
+				2A19936823E23DCB00F4FE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A19936923E23DCB00F4FE79 /* Build configuration list for PBXNativeTarget "SSHPrintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A19936A23E23DCB00F4FE79 /* Debug */,
+				2A19936B23E23DCB00F4FE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A19933123E23DC600F4FE79 /* Project object */;
+}
